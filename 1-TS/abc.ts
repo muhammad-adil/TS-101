@@ -1,10 +1,10 @@
 
 let students : { firstName: string, lastName: string, age: number, email: string }[] = [
       {
-            firstName: 'Furqan',
-            lastName: 'Khanzada',
+            firstName: 'john',
+            lastName: 'doe',
             age: 28,
-            email: 'furqan.khanzada@gmail.com'
+            email: 'john.doe@gmail.com'
       }    
 ];
 
