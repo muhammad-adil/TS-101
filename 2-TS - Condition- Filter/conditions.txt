@@ -1,0 +1,13 @@
+
+
+if(){}
+elseif(){}
+elseif(){}
+elseif(){}
+else{}
+
+11 20
+21 se less or 21 se greater alag
+<20
+-20 > 30 .
+>30
