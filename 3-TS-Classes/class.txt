@@ -24,3 +24,11 @@ class Human(){
 
 
 for calling any method and property in class use this
+
+
+public 
+private
+protected
+readonly
+
+static
