@@ -48,3 +48,39 @@ class Human {
 //const h = new Human('john')
 //console.log('h :' , h.getName());
 // console.log('h :' , h.eat());
+
+
+class Yaka {
+    private name : string = 'Yaka';
+    constructor(){
+    	console.log('hello from Yaka constructor')
+    }
+    //    hello():void {
+    //    console.log('hello parent')
+    // }
+
+       yakaEngine():void {
+           console.log('hello From Yaka Engine')
+    }    
+}
+
+class Zaqa extends Yaka {
+    protected name : string = 'Zaqa';
+
+	constructor(){
+	    super()
+        //console.log('aqua')
+	    // super()
+	    //this.hello()
+        this.zaqaEngine()
+	}
+	    zaqaEngine():void{
+	        super.yakaEngine()
+	        console.log('hello from Zaqa engine')
+	}
+}
+
+let a:Yaka = new Yaka();
+let ab:Zaqa = new Zaqa();
+
+let aba:Zaqa = new Zaqa.name();
